@@ -9,3 +9,40 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #3a3a3a;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+/* header start here */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding: 0 10px;
+}
+
+nav h1 {
+  color: #3a3a3a;
+  font-size: 24px;
+  font-weight: 700;
+}
