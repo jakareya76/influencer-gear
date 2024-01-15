@@ -1,0 +1,81 @@
+/* tablet */
+@media screen and (max-width: 960px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  .banner_content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner_content h2 {
+    color: #3a3a3a;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .banner_content p {
+    margin: 0 auto;
+  }
+
+  .banner_image {
+    width: 100%;
+    background-image: url("../images/Circle_design.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .collection_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .featured_container {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+
+  .featured_image {
+    width: 100%;
+  }
+
+  .featured_content {
+    width: 100%;
+  }
+}
+
+/* mobile */
+
+@media screen and (max-width: 576px) {
+  .navicon {
+    display: none;
+  }
+
+  .banner_image img {
+    width: 100%;
+  }
+
+  .collection_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+  .featured_content h2 {
+    font-size: 24px;
+    line-height: normal;
+  }
+}
